@@ -3,7 +3,9 @@ import 'package:flutter/material.dart';
 class MainTitleCard extends StatelessWidget {
   const MainTitleCard({
     super.key,
+    required this.title,
   });
+  final String title;
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +14,7 @@ class MainTitleCard extends StatelessWidget {
       children: [
         Padding(
           padding: const EdgeInsets.all(10),
-          child: Text("Realeased in Past Year",
+          child: Text(title,
               
               style:  TextStyle(
                 fontSize: 22,

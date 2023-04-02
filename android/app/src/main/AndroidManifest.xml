@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.netflix_2">
+    
    <application
         android:label="netflix_2"
         android:name="${applicationName}"
